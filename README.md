@@ -1,1 +1,1 @@
-# SHAIDS_DMCE
+# shaids-static
