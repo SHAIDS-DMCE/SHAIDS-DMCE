@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Spark Gallery</title>
+    <style media="screen">
+@font-face {
+    font-family: grotesk;
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-clr: #1E293B;
+}
+
+body{
+    background-color: var(--background-clr);
+    font-family: grotesk;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header h1{
+    color: white;
+    font-size: 64px;
+}
+
+.flexbox-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 2350px;
+    height: 6572px;
+    gap: 20px;
+}
+
+.row{
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.row div{
+    border-radius: 20px;
+}
+
+#row1{
+    flex: 1;
+}
+
+#one{
+    flex: 1.5;
+}
+
+#two{
+    flex: 0.5;
+}
+
+#row2{
+    flex: 1.5;
+}
+
+#three{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#three1{
+    flex: 1;
+}
+
+#three2{
+    flex: 1;
+}
+
+#four{
+    flex: 0.5;
+}
+
+#row3{
+    flex: 1.5;
+}
+
+#five{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#five1{
+    flex: 1;
+}
+
+#five2{
+    flex: 1;
+}
+
+#six{
+    flex: 0.5;
+}
+
+#row4{
+    flex: 1;
+}
+
+#row5{
+    flex: 1;
+}
+
+#row6{
+    flex: 1;
+}
+
+#one{
+    background-image: url(img/AISpark-img/8a9ca69d-1197-4925-8772-5efc9cc46336.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#two{
+    background-image: url(img/AISpark-img/4e376e9f-eea3-440d-bd41-0b826abd107b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#three1{
+    background-image: url(img/AISpark-img/c93eff85-3bed-4f80-bf01-39331bf13e64.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#three2{
+    background-image: url(img/AISpark-img/2adfce05-490c-4e19-8481-e5de673c728d.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#four{
+    background-image: url(img/AISpark-img/rotate1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#five1{
+    background-image: url(img/AISpark-img/678fa4aa-bd84-482f-9dae-600ade5b3642.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#five2{
+    background-image: url(img/AISpark-img/6344c86b-09d0-456b-a093-16a1151e3ee4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#six{
+    background-image: url(img/AISpark-img/rotate2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#row4{
+    background-image: url(img/AISpark-img/ecfa1d12-eaf7-4655-8332-30f7bc80af9a.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#row5{
+    background-image: url(img/AISpark-img/DJI_20240418_141532_715.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#row6{
+    background-image: url(img/AISpark-img/DJI_20240418_141749_105.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 1440px) {
+    .flexbox-container {
+        width: 1350px;
+    }
+    .header h1 {
+        font-size: 56px;
+    }
+    .main-container {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .flexbox-container {
+        width: 1300px;
+    }
+    .header h1 {
+        font-size: 48px;
+    }
+    .main-container {
+        padding: 35px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .flexbox-container {
+        width: 1000px;
+    }
+    .header h1 {
+        font-size: 40px;
+    }
+    .main-container {
+        padding: 30px;
+    }
+    .row {
+        flex-direction: column;
+    }
+
+    #one{
+    flex: 1;
+    }
+
+    #two{
+    flex: 1;
+    }
+
+    #four{
+    background-image: url(img/AISpark-img/0105a1f1-d60d-4dd3-b18f-cbf04efabc32.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    #six{
+    background-image: url(img/AISpark-img/cceb7e8c-87f1-48a7-9690-63f27e31c1cc.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .flexbox-container {
+        width: 100%;
+        height: 4500px;
+        gap: 15px; 
+    }
+    .header h1 {
+        font-size: 32px;
+    }
+    .main-container {
+        padding: 20px;
+    }
+    .row {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .flexbox-container {
+        width: 100%;
+        height: 2200px;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .main-container {
+        padding: 15px;
+    }
+    .row div {
+        width: 100%;
+    }
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="header">
+            <h1>AI Spark Gallery</h1>
+            <img src="assests/aispark-icons/icons8-ai-64.png">
+        </div>
+
+        <div class="flexbox-container">
+
+            <div class="row" id="row1">
+                <div class="col" id="one"></div>
+                <div class="col" id="two"></div>
+            </div>
+            <div class="row" id="row2">
+                <div class="col" id="three">
+                    <div id="three1"></div>
+                    <div id="three2"></div>
+                </div>
+                <div class="col" id="four"></div>
+            </div>
+
+            <div class="row" id="row3">
+                <div class="col" id="five">
+                    <div id="five1"></div>
+                    <div id="five2"></div>
+                </div>
+                <div class="col" id="six"></div>
+            </div>
+
+            <div class="row" id="row4"></div>
+            <div class="row" id="row5"></div>
+            <div class="row" id="row6"></div>
+
+        </div>
+
+    </div>
+</body>
+</html>
